@@ -1,7 +1,7 @@
 package com.example.kotlin.basics
 
 fun main(){
-    var myStr = "Hello World"
+    var myStr:String = "Hello World"
     print(myStr)
     print("\n")
     print("First character in myStr = " + myStr[0])
@@ -10,5 +10,7 @@ fun main(){
         print(i)
     }
 
-
+    var myStr1 = "Mohd Ajlal"
+//    myStr.lowercase()
+    print("\n"+myStr1.uppercase())
 }
